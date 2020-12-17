@@ -287,7 +287,20 @@ h3{
     
   }
   
-
+@media only screen and (max-width:991px){
+    .about{
+        height: initial;
+     
+    }
+    .projects{
+        
+        height: initial;
+     }
+    .blogs{
+        height: initial;
+    }
+    
+}
 
 /* Mobile width         < 767 */
 @media only screen and (max-width: 767px) {
@@ -303,7 +316,7 @@ h3{
     }
     .blog-wrapper{
             max-width: 80vw;
-            margin: auto;
+            margin:5rem auto;
         }
     .blog-flex{
         flex-wrap: wrap;
