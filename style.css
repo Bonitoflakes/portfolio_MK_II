@@ -42,6 +42,9 @@ body{
     top: 0;
     /* display: none; */
 }
+.hidden{
+  display: none;
+}
 /* styling of navigation bar */
 #nav{
     position: relative;
@@ -236,7 +239,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 background-color:var(--color);
-color: #102131;
+color: var(--bg-color);
 border:none;
 margin:0;
 padding: 1rem 0;
