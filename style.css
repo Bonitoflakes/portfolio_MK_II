@@ -11,16 +11,7 @@
     --color: #F76461; 
    }
    
-   body{
-   background-color: var(--bg-color);
-   color: var(--color);
-   }
    
-   .dark-theme{
-   --bg-color:#F76461;
-   --color:  #102131;
-   
-   }
 *{
 margin: 0;
 padding: 0;
@@ -32,7 +23,19 @@ html {
     scroll-behavior: smooth;
     font-family: 'Montserrat',Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: var(--bg-color);
+    color: var(--color);
+}
 
+
+.dark-theme{
+    --bg-color:#F76461;
+    --color:  #102131;
+    
+    }
+
+    
 .bg_img{
     position: absolute;
     z-index: 11;
