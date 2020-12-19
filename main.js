@@ -10,7 +10,7 @@ const btn = document.querySelector("#dark");
 
 btn.addEventListener('click', () => {
     document.body.classList.toggle('dark-theme');
-    localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark-theme' : 'light');
+    localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark-theme' : '');
 });
 
 if (localStorage.getItem('theme') === 'dark-theme') {
