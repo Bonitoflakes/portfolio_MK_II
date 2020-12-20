@@ -16,4 +16,5 @@ btn.addEventListener('click', () => {
 
 if (localStorage.getItem('theme') === 'dark-theme') {
     document.body.classList.add('dark-theme');
+    bg_img.classList.toggle('hidden')
 }
