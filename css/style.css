@@ -9,6 +9,9 @@
 :root {
     --bg-color: #102131;
     --color: #F76461;
+    --span:chocolate;
+    --gradient:  linear-gradient(36.85deg, #F76461 -6.19%, #2A7AFF 135.42%);
+
 }
 
 
@@ -34,7 +37,8 @@ body {
 .dark-theme {
     --bg-color: #F76461;
     --color: #102131;
-
+    --span:turquoise;
+    --gradient:  linear-gradient(135deg, hsla(209, 51%, 13%, 1) 0%, hsla(282, 73%, 24%, 1) 100%);
 }
 
 
@@ -198,7 +202,7 @@ body {
 }
 
 i.fab {
-    background: linear-gradient(36.85deg, #F76461 -6.19%, #2A7AFF 135.42%);
+    background: var(--gradient);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -207,7 +211,7 @@ i.fab {
 
 /* common classes */
 .button {
-    background: linear-gradient(36.85deg, #F76461 -6.19%, #2A7AFF 135.42%);
+    background: var(--gradient);
     border-radius: 10rem;
     color: white;
     font-size: 1.8rem;
@@ -220,7 +224,7 @@ i.fab {
 }
 
 .button-small {
-    background: linear-gradient(36.85deg, #F76461 -6.19%, #2A7AFF 135.42%);
+    background: var(--gradient);
     border-radius: 10rem;
     color: white;
     font-size: 1.8rem;
@@ -306,7 +310,7 @@ h2 {
 
 .title-primary {
     font-size: 4.5rem;
-    color: chocolate;
+    color: var(--span);
 }
 
 h3 {
@@ -411,7 +415,7 @@ h3 {
 
     .title-primary {
         font-size: 4.5rem;
-        color: chocolate;
+        color: var(--span);
     }
 
     h3 {
