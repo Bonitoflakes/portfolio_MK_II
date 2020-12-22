@@ -422,4 +422,7 @@ h3 {
         font-size: 3rem;
         color: var(--color);
     }
+    .blog-article {
+  height: auto;
+  }
 }
